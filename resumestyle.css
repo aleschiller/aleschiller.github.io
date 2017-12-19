@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400|Sacramento|Clicker+Script|Raleway:400,900');
+
+body{
+  font-family: 'Raleway', 'Helvetica', sans-serif;
+  font-size: 14px;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #fefcfa;
+}
+
+h1{
+  font-family: 'Clicker Script', cursive;
+  font-size: 70px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 2px;
+}
+
+h1 img {
+  width: 70px;
+  height: auto;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  line-height: 2px;
+}
+h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+h4{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+p.strong{
+  font-weight: 900;
+}
+
+/*hover, active, visited*/
+
+a{
+  color: #231f20;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ffb3a2;
+  text-decoration: underline;
+}
+
+a:active{
+  color: #ff736a;
+}
+
+/*grid*/
+* {
+  box-sizing: border-box;
+}
+
+#grid {
+  overflow: auto;
+  height: 100%;
+  background-color: #fefcfa;
+}
+
+header {
+  background-image: url("sakura.png");
+  padding: 10px 0;
+}
+
+nav {
+  background-color: #f9efe5;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  color: #231f20;
+  text-decoration: none;
+}
+
+nav a {
+  padding: 0.5em;
+}
+
+main {
+  display: inline;
+}
+aside {
+  width: 38%;
+  float: left;
+  margin: 10px 0 10px 0;
+  padding: 10px 10px 5px 25px;
+  background-color: #f9efe5;
+  display: inline-block;
+}
+
+article {
+  width: 58%;
+  float: right;
+  margin: 10px 0 10px 0;
+  padding: 10px 10px 5px 25px;
+  background-color: #f9efe5;
+  display: inline-block;
+}
+
+footer {
+	overflow: auto;
+  width: 100%;
+  padding: 5px;
+  background-color: #f9efe5;
+}

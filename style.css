@@ -1,0 +1,130 @@
+/* Style Sheet */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Sacramento|Clicker+Script|Raleway');
+
+body {
+  font-family: 'Raleway', 'Helvetica', sans-serif;
+  font-size: 14px;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+a{
+  color: #231f20;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ffb3a2;
+  text-decoration: underline;
+}
+
+a:active{
+  color: #ff736a;
+}
+
+h1{
+  font-family: 'Clicker Script', cursive;
+  font-size: 70px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 2px;
+}
+
+h1 img {
+  width: 70px;
+  height: auto;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  line-height: 2px;
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 27px;
+  line-height: 2px;
+  display:inline-block;
+}
+
+img.shellsimage {
+  float: left;
+  padding: 0 15px;
+  width: 70%;
+  height: auto;
+}
+
+img.SOC-logo{
+  float: left;
+  padding: 0 10px;
+  height: 75%;
+  width: auto;
+}
+
+.align-center{
+  justify-content: center;
+  border-radius: 50%;
+}
+.align-float-left{
+  text-align: center;
+  padding: 25%;
+}
+
+
+/*structural elements */
+
+
+      header {
+        background-image: url("sakura.png");
+        padding: 10px 0;
+      }
+
+      nav {
+        background-color: #f9efe5;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul {
+        padding-left: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        color: #231f20;
+        text-decoration: none;
+      }
+
+      nav a {
+        padding: 0.5em;
+      }
+
+      article{
+        padding: .5em;
+        margin: 1%;
+        margin-bottom: 1em;
+        justify-content: center;
+      }
+      main {
+        display: inline-block;
+      }
+
+      section {
+        float: left;
+
+      }
+
+      footer {
+        background-color: #f9efe5;
+        padding: .5em;
+        margin: 1%;
+        text-align: center;
+      }
